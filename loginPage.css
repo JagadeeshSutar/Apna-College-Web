@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 
+form{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333333;
+}
+
+.login-page {
+  width: 25vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+/* font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  width: 20;
+  height: 10vh;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  text-align: center;
+  padding-bottom: 20px; */
+
+.login-page h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+  width: 300px;
+  text-align: center;
+  padding: 0 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.login-page label {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+#e-mail,
+#password {
+  width: 320px;
+  height: 45px;
+  border: none;
+  background-color: #333333;
+  padding: 0 20px;
+  color: white;
+}
+
+#password {
+  margin-bottom: 10px;
+}
+
+.loginBtn {
+  width: 360px;
+  height: 45px;
+  margin-top: 20px;
+  padding: 15px 0px;
+  background-color: #6674cc;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 700;
+}
+
+.login-page form * {
+  margin: 6px 0px;
+}
+
+.login-page form button {
+  border: none;
+}
+
+.lowerBtns {
+  padding-top: 15px;
+}
+
+.lowerBtns .crtActBtn {
+  background-color: black;
+  color: #6674cc;
+  /* padding: 0px 50px; */
+  padding-right: 60px;
+  font-size: 14px;
+}
+.lowerBtns .forgotBtn {
+  background-color: black;
+  color: #6674cc;
+  padding-left: 60px;
+  /* padding: 0px 50px; */
+  font-size: 14px;
+}
+.x-mark {
+    display: block;
+    position: absolute;
+    top: 20vh;
+    right:37vw;
+    background-color: rgb(0, 0, 0);
+  }
+  .x-mark i {
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #4c4c4c;
+  }
+
+@media (max-width: 1200px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+    background-color: black;
+    padding: 10px;
+    padding-top: 30px;
+  }
+
+  #e-mail,
+  #password {
+    width: 260px;
+    height: 38px;
+  }
+  body{
+    height: 90vh;
+  }
+  .loginBtn {
+    width: 300px;
+    height: 40px;
+  }
+  .login-page {
+    width: 10vw;
+    height: 10vh;
+  }
+  .x-mark{
+    top: 45vw;
+    right: 8vw;
+  }
+  .lowerBtns .forgotBtn {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .lowerBtns .crtActBtn {
+    font-size: 12px;
+  }
+  .login-page h1 {
+    font-size: 17px;
+    width: 70vw;
+  }
+  .login-page label {
+    font-size: 14px;
+  }
+  .lowerBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-top: 30px;
+  }
+  .login-page form * {
+    margin: 4px 0px;
+  }
+}

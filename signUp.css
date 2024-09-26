@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #333333;
+  color: white;
+}
+
+.signUp-page {
+  width: 28vw;
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.signUp-page h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  text-align: center;
+  padding-bottom: 26px;
+  margin-top: 59px;
+}
+
+.signUp-page label {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.signUp-page button {
+  border: none;
+}
+
+#name,
+#e-mail,
+#password,
+#pNumber {
+  width: 335px;
+  height: 38px;
+  background-color: #262626;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+}
+
+.signUp-page .loginBtn {
+  margin-top: 0;
+}
+.signUp-page * {
+  margin: 8px 0px;
+}
+
+.loginBtn {
+  width: 365px;
+  height: 40px;
+  padding: 10px 0px;
+  background-color: #6674cc;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+.lowerBtns {
+  position: relative;
+  top: -25px;
+  padding-bottom: 20px;
+}
+
+.lowerBtns .crtActBtn {
+  background-color: black;
+  color: #6674cc;
+  padding-right: 32px;
+  font-size: 14px;
+}
+.lowerBtns .forgotBtn {
+  background-color: black;
+  color: #6674cc;
+  padding-left: 32px;
+  font-size: 14px;
+}
+@media (max-width: 1200px) {
+  .signUp-page {
+    height: 10vw;
+
+  }
+  body{
+    height: 88vh;
+  }
+  form {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 40px;
+    height: 65vh;
+    width: 82vw;
+  }
+  #name,
+  #e-mail,
+  #password,
+  #pNumber {
+    width: 280px;
+    height: 43px;
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+
+  .loginBtn {
+    width: 300px;
+    height: 40px;
+  }
+
+  .signUp-page h1 {
+    font-size: 16px;
+    position: relative;
+    top: 15px;
+  }
+  .lowerBtns .forgotBtn {
+    padding: 0px;
+    font-size: 12px;
+  }
+  .lowerBtns .crtActBtn {
+    font-size: 12px;
+  }
+  .signUp-page label {
+    font-size: 13px;
+  }
+}
